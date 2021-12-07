@@ -1,0 +1,123 @@
+:root {
+    --primary-color: #DC2626;
+    --off-white: #F3F4F6;
+    --dark-gray: #6B7280;
+    --primary-green: #065F46;
+}
+
+body {
+    background-image: url("image.jpg");
+    background-size: 100%;
+    padding-left: 2rem;
+    padding-right: 3rem;
+    margin-bottom: 20%;
+    text-align: center;
+    font-size: large;
+    margin: 0px;
+}
+
+button {
+    font-size: large;
+}
+
+form div p {
+    color: var(--primary-green);
+    font-size: x-large;
+}
+
+.input-label {
+    font-size: larger;
+    color: var(--primary-green);
+    width: 256px;
+}
+
+.input-text {
+    font-size: 15px;
+    padding: 0.6rem 1rem;
+    border: 2px solid var(--primary-green);
+    border-radius: 0.5rem;
+    width: 100%;
+    max-width: 258px;
+}
+
+.btn-check {
+    background: #f03838;
+    border: none;
+    padding: 0.7rem 1rem;
+    border-radius: 0.5rem;
+    font-size: large;
+    cursor: pointer;
+    outline: #fff;
+    margin: 1rem auto;
+    display: block;
+}
+
+.btn-check:hover {
+    background-color: #047857;
+}
+
+.output {
+    font-size: x-large;
+    margin: 1rem;
+    margin-bottom: 30%;
+}
+  
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-top-left-radius: 4rem;
+    border-bottom-right-radius: 4rem;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .link:hover {
+    color: white;
+    background: rgba(199, 97, 97, 0.7);
+    border-radius: 6px;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+    color: #113f30;
+}
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem
+}
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 1.5rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-left-radius: 4rem;
+    border-bottom-right-radius: 4rem;
+}
+
+.footer .link {
+    color: white;
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
+
+.footer .list-item-inline:hover {
+    font-weight: bold;
+    background: rgba(232, 235, 233, 0.7);
+    border-radius: 6px;
+}
